@@ -1,0 +1,37 @@
+image:"python:3.7"
+
+before_script:
+  - python --version
+  - pip install -r requirements.txt
+
+stages:
+  - Static Analysis
+  - Test
+
+mypy:
+  stage: Static Analysis
+  script:
+    - pwd
+    - ls -l
+    - python -m mypy bild/file.py
+    - python -m mypy bild/directory.py
+
+flake8:
+  stage: Static Analysis
+  script:
+    - flake8 --max-line-length=120 bild/*.py
+
+pylint:
+  stage: Static Analysis
+  allow_failure: false
+  script:
+    - pylint -d C0301 bild/*.py
+
+unitest:
+  stage:
+  script:
+    - pwd
+    - ls -l
+    - export PYTHONPATH="$PYTHONPATH:."
+    - python -c "import sys;print(sys.path)"
+    - pytest

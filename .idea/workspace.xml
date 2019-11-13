@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b80389d-5c60-4d5c-93ab-10a836f63283" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/lib/lib_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/lib/lib_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/business.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/business.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/resource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/blueprints/customers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/blueprints/customers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/blueprints/customers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/blueprints/customers/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/blueprints/customers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/blueprints/customers/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/blueprints/products/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/blueprints/products/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/blueprints/products/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/blueprints/products/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/blueprints/products/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/blueprints/products/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/blueprints/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/blueprints/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/lib/lib_sqlalchemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/lib/lib_sqlalchemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/lib/util_decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/lib/util_decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/product/blueprint/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/product/blueprint/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E-commerece/product/blueprint/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/product/blueprint/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/blueprints/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/blueprints/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/users/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/blueprints/users/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/blueprints/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchQuery/app/blueprint/search/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchQuery/app/blueprint/search/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchQuery/app/blueprint/search/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchQuery/app/blueprint/search/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchQuery/app/blueprint/search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchQuery/app/blueprint/search/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchQuery/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchQuery/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchQuery/app/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchQuery/app/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchQuery/app/lib/libsqlalchemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchQuery/app/lib/libsqlalchemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/.idea/automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/.idea/automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gentella/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gentella/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../script/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../script/script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swa/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../swa/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../swa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swa/customer/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../swa/customer/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swa/customer/blueprint/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../swa/customer/blueprint/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swa/customer/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../swa/customer/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swa/customer/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../swa/customer/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swa/product/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../swa/product/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swa/product/blueprint/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../swa/product/blueprint/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swa/product/blueprint/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../swa/product/blueprint/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_obj/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_obj/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_obj/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_obj/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_obj/app/templates/ellipsis/ellipsis.html" beforeDir="false" afterPath="$PROJECT_DIR$/../test_obj/app/templates/ellipsis/ellipsis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/category/tests/app-test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/customer/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/customer/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/customer/blueprint/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/customer/blueprint/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/customer/blueprint/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/customer/blueprint/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/customer/blueprint/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/customer/blueprint/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/customer/blueprint/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/customer/blueprint/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/customer/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/customer/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/customer/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/customer/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/department/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/department/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/department/blueprint/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/department/blueprint/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/department/blueprint/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/department/blueprint/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/department/blueprint/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/department/blueprint/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/department/blueprint/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/department/blueprint/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/department/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/department/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/department/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/department/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/product/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/product/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/product/blueprint/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/product/blueprint/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/product/blueprint/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/product/blueprint/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/product/blueprint/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/product/blueprint/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled7/product/configProduct.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled7/product/configProduct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/category/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/category/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/category/blueprint/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/category/blueprint/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/category/blueprint/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/category/blueprint/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/category/blueprint/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/category/blueprint/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/category/blueprint/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/category/blueprint/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/category/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/category/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/category/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/category/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/category/tests/app-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/category/tests/app-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/department/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/department/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/department/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/department/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/department/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/department/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/department/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/department/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/department/tests/app-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/department/tests/app-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/product/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/product/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/product/blueprint/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/product/blueprint/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/product/blueprint/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/product/blueprint/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/product/configProduct.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/product/configProduct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled8/product/tests/app-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled8/product/tests/app-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webscrapper/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webscrapper/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webscrapper/scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../webscrapper/scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webscrapper/trial.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../webscrapper/trial.csv" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/layouts/layouts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11">
+              <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-166" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/index/index-form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/blueprints/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/index/index-video.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/blueprints/users/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-232">
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/img</find>
+      <find>plugins</find>
+      <find>js</find>
+      <find>logo</find>
+      <find>Cardiologist</find>
+      <find>css</find>
+      <find>img</find>
+      <find>footer</find>
+      <find>form</find>
+      <find>Indonesia</find>
+      <find>Medicio</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/app.pu.py" />
+        <option value="$PROJECT_DIR$/app/extensions.py" />
+        <option value="$PROJECT_DIR$/app/blueprints/user.py" />
+        <option value="$PROJECT_DIR$/app/blueprints/views.py" />
+        <option value="$PROJECT_DIR$/app/blueprints/__init__.py" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/blueprints/user/user.py" />
+        <option value="$PROJECT_DIR$/app/blueprints/user/views.py" />
+        <option value="$PROJECT_DIR$/app/blueprints/user/__init__.py" />
+        <option value="$PROJECT_DIR$/app/app.py" />
+        <option value="$PROJECT_DIR$/app/blueprints/users/model.py" />
+        <option value="$PROJECT_DIR$/app/blueprints/users/forms.py" />
+        <option value="$PROJECT_DIR$/app/config.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/app/blueprints/users/__init__.py" />
+        <option value="$PROJECT_DIR$/app/index-video.html" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/index-video.html" />
+        <option value="$PROJECT_DIR$/app/templates/index-form.html" />
+        <option value="$PROJECT_DIR$/app/templates/index/index-form.html" />
+        <option value="$PROJECT_DIR$/app/blueprints/users/views.py" />
+        <option value="$PROJECT_DIR$/app/templates/footer.html" />
+        <option value="$PROJECT_DIR$/app/templates/index/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/layouts/layouts.html" />
+        <option value="$PROJECT_DIR$/app/templates/nav.html" />
+        <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="634" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Medicio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medicio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Medicio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medicio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates/index" />
+      <recent name="$PROJECT_DIR$/app/static" />
+      <recent name="$PROJECT_DIR$/app/static/js" />
+      <recent name="$PROJECT_DIR$/app/templates" />
+      <recent name="$PROJECT_DIR$/app/static/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Medicio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b80389d-5c60-4d5c-93ab-10a836f63283" name="Default Changelist" comment="" />
+      <created>1573625346559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573625346559</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32876712" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/config.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/static/js/contactform/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/contactform/contactform.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/cubeportfolio/js/jquery.cubeportfolio.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/cubeportfolio/js/jquery.cubeportfolio.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/cubeportfolio/css/cubeportfolio.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/cubeportfolio/css/cubeportfolio.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/cubeportfolio/img/cbp-sprite.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/cubeportfolio/img/cbp-sprite.psd">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/cubeportfolio/img/cbp-loading.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/cubeportfolio/img/cbp-loading-popup.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/team/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/team/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/team/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/team/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/dummy/bg1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/dummy/img-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/dummy/img-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/dummy/img-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/dummy/partner-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/dummy/partner-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/less/core.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/less/list.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/less/path.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/less/icons.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/less/larger.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/less/mixins.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/less/stacked.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/less/spinning.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/font-awesome/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/plugins/cubeportfolio/js/jquery.cubeportfolio.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="2096" selection-start-line="2096" selection-end-line="2096" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/doctors/member1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/doctors/member2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/doctors/member3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/doctors/member4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blueprints/users/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blueprints/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blueprints/users/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1378">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index/index-video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blueprints/users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index/index-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blueprints/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/layouts/layouts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
