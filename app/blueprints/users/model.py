@@ -66,7 +66,7 @@ class User(db.Model, UserMixin):
     @staticmethod
     def decode_token(token):
         try:
-            payload = jwt.decode(token,key=Config.SECRET_KEY,algorithms='HS25')['user_id']
+            payload = jwt.decode(token,key=Config.SECRET_KEY,algorithms='HS256')['user_id']
 
         except jwt.InvalidTokenError as e:
             return "{0}".format(e)
@@ -98,9 +98,11 @@ class User(db.Model, UserMixin):
     def to_json(self):
         """"""
 
+    def __repr__(self):
+        return '<User {}>'.format( self.email )
 
 
-class Doctor(db.Model,User):
+class Doctor(User):
 
     __tablename__ = 'doctors'
 
@@ -112,6 +114,10 @@ class Doctor(db.Model,User):
     def __init__(self, *args, **kwargs):
 
         super(Doctor,self).__init__(**kwargs)
+
+    def __repr__(self):
+        return '<Doctor {}>'.format(self.email)
+
 
 
 

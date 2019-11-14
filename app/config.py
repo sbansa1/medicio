@@ -14,9 +14,16 @@ class Config(object):
     CSRF_ENABLED = True
     SECRET_KEY = 'this-really-needs-to-be-changed'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_DATABASE_URI = os.environ.get( 'DATABASE_URL' ) or \
+                               'sqlite:///' + os.path.join(basedir, 'test.db' )
     LOGGING_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     LOGGING_LEVEL = logging.INFO
     LOGGING_LOCATION = 'error.log'
+
+
+
+
+
 
 
 def create_config_object(env_settings):
@@ -24,10 +31,14 @@ def create_config_object(env_settings):
 
     new_config = Config()
     with env.prefixed(env_settings):
+        new_config.SQLALCHEMY_DATABASE_URI = env.str("SQLALCHEMY_DATABASE_URI")
         new_config.DEBUG = env.bool('DEBUG',default=False)
         new_config.TESTING = env.bool('TESTING', default=False)
 
     return new_config
+
+
+
 
 
 

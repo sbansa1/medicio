@@ -2,10 +2,10 @@ from flask import Flask
 import logging
 
 from app.blueprints.users import user
-from app.config import DevelopmentConfig
+from app.config import TestingConfig
 from app.extensions import db,migrate,login_manager
 
-def create_app(config_settings=DevelopmentConfig):
+def create_app(config_settings=TestingConfig):
 
     app = Flask(__name__, instance_relative_config='')
     app.config.from_object(config_settings)
@@ -19,6 +19,7 @@ def create_app(config_settings=DevelopmentConfig):
     app.logger.addHandler(handler)
 
     error(app)
+    extensions(app)
 
 
     return app
