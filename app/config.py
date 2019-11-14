@@ -21,11 +21,6 @@ class Config(object):
     LOGGING_LOCATION = 'error.log'
 
 
-
-
-
-
-
 def create_config_object(env_settings):
     """Creates the new Config Obj"""
 

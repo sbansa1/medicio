@@ -1,13 +1,15 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField
+from wtforms import StringField, PasswordField, BooleanField, SubmitField
 from wtforms.fields.html5 import EmailField
-from wtforms.validators import DataRequired, Email, Optional, Length
+from wtforms.validators import DataRequired, Email, Optional, Length, EqualTo, ValidationError
+
+from app.blueprints.users.model import User
 
 
-class UserForm(FlaskForm):
+class RegistrationFormUser(FlaskForm):
     """Creates the user form """
 
-    username=StringField("Username", validators=[DataRequired("Please Enter your User Name")])
+    name=StringField("Username", validators=[DataRequired("Please Enter your User Name")])
     email=EmailField("Email_Address", validators=[DataRequired("This Field reuires a valid email_address"),
                                                   Email("This field requires a valid email address")])
     password=PasswordField('Password',
@@ -15,6 +17,9 @@ class UserForm(FlaskForm):
                                        Length(min=8,max=16,
                                                    message="Please make sure your password\
                                                            is atleast 8 characters long")])
+    password2 = PasswordField(
+        'Repeat Password', validators=[DataRequired(), EqualTo('password')])
+
     address_1=StringField('Address_1', validators=[DataRequired("please enter your address")])
     address_2=StringField('Address_2', validators=[Optional()])
     city =StringField('City',validators=[DataRequired("Please Enter your city name")])
@@ -24,10 +29,19 @@ class UserForm(FlaskForm):
 
 
     mobile_phone=StringField('Phone Number', validators=[DataRequired(), Length(min=10, max=10)])
+    submit = SubmitField('Register')
 
 
+    def validate_email(self,email):
+        """Check if the user is already registered WTF forms anything
+        with Validate_XXX with raise a custom error message"""
 
-class DoctorForm(UserForm,FlaskForm):
+        user = User.check_user_identity(identity=email.data)
+        if user is not None:
+            raise ValidationError("Please use a different email-address")
+
+
+class RegisterDoctorForm(RegistrationFormUser,FlaskForm):
     """Creates the Doctor Registration Form"""
 
     registration_number = StringField('Registration Number', validators=[DataRequired("Please Enter your registration\
@@ -37,3 +51,8 @@ class DoctorForm(UserForm,FlaskForm):
                                                                                        Registration'),
                                                                            Length(min=4,max=4)])
 
+class LoginForm(FlaskForm):
+    email = StringField("Email", validators=[DataRequired(), Email()])
+    password = PasswordField('Password', validators=[DataRequired()])
+    remember_me = BooleanField('Remember Me')
+    submit = SubmitField('Sign In')

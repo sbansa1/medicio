@@ -1,15 +1,17 @@
+from logging.handlers import RotatingFileHandler
+
 from flask import Flask
-import logging
 
 from app.blueprints.users import user
-from app.config import TestingConfig
+from app.config import TestingConfig, DevelopmentConfig, Config
 from app.extensions import db,migrate,login_manager
 
-def create_app(config_settings=TestingConfig):
+
+def create_app(config_settings=Config):
 
     app = Flask(__name__, instance_relative_config='')
     app.config.from_object(config_settings)
-    handler = logging.FileHandler(app.config.get('LOGGING_LOCATION'))
+    handler = RotatingFileHandler(app.config.get('LOGGING_LOCATION'), maxBytes=10240,backupCount=10 )
     handler.setLevel(app.config.get('LOGGING_LEVEL'))
     formatter = handler.setFormatter(app.config.get('LOGGING_FORMAT'))
     handler.setFormatter(formatter)
