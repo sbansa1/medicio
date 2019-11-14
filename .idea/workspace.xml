@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b80389d-5c60-4d5c-93ab-10a836f63283" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/templates/layouts/layout_one.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/user/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/user/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/functional_tests/test_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/db_func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/lib/lib_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/lib/lib_email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoctorPatientAPI/patientdoctor/user/__init__.py" afterDir="false" />
@@ -30,57 +22,7 @@
       <change beforePath="$PROJECT_DIR$/../E-commerece/lib/util_decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/lib/util_decorators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../E-commerece/product/blueprint/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/product/blueprint/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../E-commerece/product/blueprint/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../E-commerece/product/blueprint/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/arrow_large_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/arrow_large_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/arrow_large_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/arrow_large_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/arrow_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/arrow_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/arrow_left2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/arrow_left2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/arrow_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/arrow_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/arrow_right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/arrow_right2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/arrowleft.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/arrowleft.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/arrowright.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/arrowright.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/arrows.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/arrows.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/black50.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/black50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/boxed_bgtile.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/boxed_bgtile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/bullet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/bullet_boxed.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/bullet_boxed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/bullets.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/bullets.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/bullets.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/bullets.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/bullets2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/bullets2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/coloredbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/coloredbg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/grain.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/grain.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/gridtile.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/gridtile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/gridtile_3x3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/gridtile_3x3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/gridtile_3x3_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/gridtile_3x3_white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/gridtile_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/gridtile_white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/large_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/large_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/large_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/large_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/loader2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/loader2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/navigdots.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/navigdots.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/navigdots_bgtile.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/navigdots_bgtile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/shadow1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/shadow1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/shadow2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/shadow2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/shadow3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/shadow3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/small_arrows.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/small_arrows.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/small_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/small_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/small_left_boxed.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/small_left_boxed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/small_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/small_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/small_right_boxed.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/small_right_boxed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/timer.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/timer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/timerdot.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/timerdot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/transparent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/transparent.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/white50.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/assets/white50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blueprints/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/blueprints/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blueprints/users/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/blueprints/users/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blueprints/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/blueprints/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layouts/layouts.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layouts/layouts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/unit_tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/unit_tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/test.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/README" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/alembic.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" />
@@ -160,14 +102,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/blueprints/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="87">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -193,7 +153,7 @@
         <entry file="file://$PROJECT_DIR$/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-315">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -205,7 +165,7 @@
         <entry file="file://$PROJECT_DIR$/app/tests/functional_tests/test_users.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
-              <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+              <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -232,29 +192,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/unit_tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/blueprints/users/model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1138">
-              <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+              <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -336,6 +279,7 @@
         <option value="$PROJECT_DIR$/app/blueprints/users/forms.py" />
         <option value="$PROJECT_DIR$/app/tests/functional_tests/test_users.py" />
         <option value="$PROJECT_DIR$/app/blueprints/users/views.py" />
+        <option value="$PROJECT_DIR$/setup.cfg" />
       </list>
     </option>
   </component>
@@ -356,24 +300,6 @@
             <path>
               <item name="Medicio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medicio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Medicio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Medicio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Medicio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Medicio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="blueprints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Medicio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Medicio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="blueprints" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -460,12 +386,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Version Control" weight="0.32876712" />
       <window_info anchor="bottom" id="Python Console" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
@@ -483,9 +409,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/doctors/member4.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/blueprints/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -506,13 +429,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -752,7 +668,7 @@
     <entry file="file://$PROJECT_DIR$/app/tests/functional_tests/test_users.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -772,7 +688,7 @@
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
@@ -782,7 +698,7 @@
     <entry file="file://$PROJECT_DIR$/app/blueprints/users/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1138">
-          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -791,11 +707,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/blueprints/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="87">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
