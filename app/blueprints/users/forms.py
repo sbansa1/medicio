@@ -1,13 +1,16 @@
+from collections import OrderedDict
+
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, BooleanField, SubmitField
+from wtforms import StringField, PasswordField, BooleanField, SubmitField, SelectField
 from wtforms.fields.html5 import EmailField
 from wtforms.validators import DataRequired, Email, Optional, Length, EqualTo, ValidationError
 
-from app.blueprints.users.model import User
+from app.blueprints.users.model import UserResource
 
 
 class RegistrationFormUser(FlaskForm):
     """Creates the user form """
+
 
     name=StringField("Username", validators=[DataRequired("Please Enter your User Name")])
     email=EmailField("Email_Address", validators=[DataRequired("This Field reuires a valid email_address"),
@@ -29,6 +32,10 @@ class RegistrationFormUser(FlaskForm):
 
 
     mobile_phone=StringField('Phone Number', validators=[DataRequired(), Length(min=10, max=10)])
+    roles = SelectField('Are you a Patient or Doctor', validators=[DataRequired()],choices=[
+        ('patient', 'Patient'),
+        ('doctor', 'Doctor')])
+
     submit = SubmitField('Register')
 
 
@@ -36,7 +43,7 @@ class RegistrationFormUser(FlaskForm):
         """Check if the user is already registered WTF forms anything
         with Validate_XXX with raise a custom error message"""
 
-        user = User.check_user_identity(identity=email.data)
+        user = UserResource.check_user_identity(identity=email.data)
         if user is not None:
             raise ValidationError("Please use a different email-address")
 
@@ -56,3 +63,15 @@ class LoginForm(FlaskForm):
     password = PasswordField('Password', validators=[DataRequired()])
     remember_me = BooleanField('Remember Me')
     submit = SubmitField('Sign In')
+
+
+class ResetPasswordRequestForm(FlaskForm):
+    email = StringField('Email', validators=[DataRequired(), Email()])
+    submit = SubmitField('Request Password Reset')
+
+
+class ResetPasswordForm(FlaskForm):
+    password = PasswordField('Password', validators=[DataRequired()])
+    password2 = PasswordField(
+        'Repeat Password', validators=[DataRequired(), EqualTo('password')])
+    submit = SubmitField('Request Password Reset')
